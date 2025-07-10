@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background: #121212;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#progress, #volume {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#playlist li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#playlist li:hover {
+  background: #333;
+}
